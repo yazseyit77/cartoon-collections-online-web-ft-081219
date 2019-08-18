@@ -10,8 +10,8 @@ end
 
 def summon_captain_planet(veggies)# code an argument here
   array = []
-  veggies.each do |veggie| veggie.capitalize!
-    array << "#{veggie}!"
+  veggies.each do |word| word.capitalize!
+    array << "#{word}!"
   end
   # Your code here
 end
